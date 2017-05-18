@@ -48,20 +48,29 @@ You're nearly done. One last thing you will have to do: define which loadouts sh
 Somewhere in your init.sqf, for example:
 
 ```
-["BLU_F", "BwFleck"] call GRAD_Loadout_fnc_FactionSetLoadout;
-["OPF_G_F", "ModerateRebels"] call GRAD_Loadout_fnc_FactionSetLoadout;
+["BLU_F", "ger_heer_w"] call GRAD_Loadout_fnc_FactionSetLoadout;
+["OPF_G_F", "rus_msv_w"] call GRAD_Loadout_fnc_FactionSetLoadout;
 ```
+
+So the "BLU_F" faction (vanilla NATO units) will use the "ger_heer_w" loadouts.
+
+## Available Loadouts
 
 These factions are available (see also the `factions` directory):
 
-| name       | description            |
-|------------|------------------------|
-| ger_heer_d | Bundeswehr Tropentarn  |
-| ger_heer_w | Bundeswehr Flecktarn   |
-| rus_msv_d  | Russian MSV EMR Desert |
-| rus_msv_w  | Russian MSV Flora      |
-| us_army    | US Army OCP            |
+| name                     | description                   |
+|--------------------------|-------------------------------|
+| ger_heer_d               | Bundeswehr Tropentarn         |
+| ger_heer_w               | Bundeswehr Flecktarn          |
+| ind_eastern_nationalists | Rebels with Russian equipment |
+| ind_pmc_special          | PMC / special forces          |
+| ind_me_terrorists        | Middle Eastern terrorists     |
+| rus_msv_d                | Russian MSV EMR Desert        |
+| rus_msv_w                | Russian MSV Flora             |
+| us_army                  | US Army OCP                   |
 
+
+## Units
 
 **HINT**: If you do not know which faction your editor-created units belong to, have a look into the [BI Community Wiki](https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST)
 
