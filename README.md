@@ -54,20 +54,26 @@ Somewhere in your init.sqf, for example:
 
 So the "BLU_F" faction (vanilla NATO units) will use the "ger_heer_w" loadouts.
 
-## Available Loadouts
+## Available Loadouts and Dependencies
 
 These factions are available (see also the `factions` directory):
 
-| name                     | description                   |
-|--------------------------|-------------------------------|
-| ger_heer_d               | Bundeswehr Tropentarn         |
-| ger_heer_w               | Bundeswehr Flecktarn          |
-| ind_eastern_nationalists | Rebels with Russian equipment |
-| ind_pmc_special          | PMC / special forces          |
-| ind_me_terrorists        | Middle Eastern terrorists     |
-| rus_msv_d                | Russian MSV EMR Desert        |
-| rus_msv_w                | Russian MSV Flora             |
-| us_army                  | US Army OCP                   |
+*  (RUS MSV)
+*  (US Army)
+*  (Eastern Nationalists)
+*  (Middle Eastern Terrorists)
+*  (PMC Special Forces)
+
+| name                     | description                   | dependencies                                                                            |
+|--------------------------|-------------------------------|-----------------------------------------------------------------------------------------|
+| ger_heer_d               | Bundeswehr Tropentarn         | Gruppe Adler Mod                                                                        |
+| ger_heer_w               | Bundeswehr Flecktarn          | Gruppe Adler Mod                                                                        |
+| ind_eastern_nationalists | Rebels with Russian equipment | [RHS: GREF](http://www.rhsmods.org/mod/3)                                               |
+| ind_pmc_special          | PMC / special forces          | [CUP Vehicles](https://forums.bistudio.com/topic/179326-community-upgrade-project-cup/) |
+| ind_me_terrorists        | Middle Eastern terrorists     | [Project Opfor](http://www.armaholic.com/page.php?id=31310)                             |
+| rus_msv_d                | Russian MSV EMR Desert        | [RHS: AFRF](http://www.rhsmods.org/mod/1)                                               |
+| rus_msv_w                | Russian MSV Flora             | [RHS: AFRF](http://www.rhsmods.org/mod/1)                                               |
+| us_army                  | US Army OCP                   | [RHS: USAF](http://www.rhsmods.org/mod/2)                                               |
 
 
 ## Units
