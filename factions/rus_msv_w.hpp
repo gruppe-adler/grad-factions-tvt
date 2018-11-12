@@ -48,11 +48,11 @@ class rus_msv_w {
 			backpack = "rhs_assault_umbts";
 			headgear = "rhs_6b26_ess";
 			addItemsToVest[] = {
-				LIST_2("rhs_mag_rgo")
+				LIST_2("rhs_mag_rgo"),
+                LIST_1("rhs_100Rnd_762x54mmR")
 			};
 			addItemsToBackpack[] = {
-				LIST_2("rhs_100Rnd_762x54mmR_green"),
-				"rhs_100Rnd_762x54mmR"
+				LIST_2("rhs_100Rnd_762x54mmR_green")
 			};
 		};
 
