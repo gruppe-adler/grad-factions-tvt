@@ -105,8 +105,7 @@ class us_army {
 			headgear = "rhsusf_ach_helmet_headset_ess_ocp";
 			addItemsToBackpack[] =  {
 				LIST_2("rhs_mag_m18_green"),
-				LIST_2("rhs_mag_m18_purple"),
-				LIST_2("rhs_mag_m18_red")
+				LIST_2("rhs_mag_m18_purple")
 			};
         };
 
