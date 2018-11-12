@@ -16,7 +16,7 @@ class us_army {
 		backpack = "";
 		headgear = "rhsusf_ach_helmet_ocp";
 		nvgoggles = "";
-		radio = "tf_anprc152";
+		radio = "TFAR_anprc152";
 		binoculars = "Binocular";
 		map = "ItemMap";
 		gps = "ItemGPS";
@@ -101,7 +101,7 @@ class us_army {
         class Soldier_SL_F: Soldier_F {
 			primaryWeaponOptics = "rhsusf_acc_compm4";
 			vest = "rhsusf_iotv_ocp_Squadleader";
-			backpack = "tf_rt1523g";
+			backpack = "TFAR_rt1523g_rhs";
 			headgear = "rhsusf_ach_helmet_headset_ess_ocp";
 			addItemsToBackpack[] =  {
 				LIST_2("rhs_mag_m18_green"),
@@ -127,7 +127,7 @@ class us_army {
 	class Rank {
 		class LIEUTENANT {
 			headgear = "rhsusf_patrolcap_ocp";
-			backpack = "tf_rt1523g_big_rhs";
+			backpack = "TFAR_rt1523g_big_rhs";
 		};
 	};
 };

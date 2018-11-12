@@ -15,7 +15,7 @@ class rus_msv_w {
 		backpack = "";
 		headgear = "rhs_6b26";
 		nvgoggles = "";
-		radio = "tf_fadak";
+		radio = "TFAR_fadak";
 		binoculars = "Binocular";
 		map = "ItemMap";
 		gps = "ItemGPS";
@@ -93,7 +93,7 @@ class rus_msv_w {
         class Soldier_SL_F: Soldier_F {
 			primaryWeaponOptics = "rhs_acc_1p63";
 			vest = "rhs_6b23_6sh92_headset_mapcase";
-			backpack = "tf_mr3000_rhs";
+			backpack = "TFAR_mr3000_rhs";
 			headgear = "rhs_6b26_ess";
 			addItemsToBackpack[] =  {
 				LIST_3("rhs_mag_rdg2_black"),
