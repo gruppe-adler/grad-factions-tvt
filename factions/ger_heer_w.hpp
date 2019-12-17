@@ -1,9 +1,17 @@
 class ger_heer_w {
 	class AllUnits {
-        primaryWeapon = "rhs_weap_g36kv";
+        primaryWeapon[] = {
+            "rhs_weap_g36kv",
+            "rhs_weap_g36c"
+        };
         primaryWeaponMagazine = "rhssaf_30rnd_556x45_EPR_G36";
 		primaryWeaponMuzzle = "";
-		primaryWeaponOptics = "rhsusf_acc_eotech_552";
+		primaryWeaponOptics[] = {
+            "rhsusf_acc_eotech_552",
+            "rhsusf_acc_mrds",
+            "rhsusf_acc_RX01",
+            "rhsusf_acc_T1_high"
+        };
 		primaryWeaponPointer = "";
 		primaryWeaponUnderbarrel = "";
 		primaryWeaponUnderbarrelMagazine = "";
