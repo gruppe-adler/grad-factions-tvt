@@ -46,7 +46,7 @@ class us_army {
         //autorifleman
 		class Soldier_AR_F: Soldier_F {
 			primaryWeapon = "rhs_weap_m249_pip_S";
-			primaryWeaponMagazine = "rhs_200rnd_556x45_M_SAW";
+			primaryWeaponMagazine = "rhsusf_200rnd_556x45_mixed_box";
 			handgunWeapon = "";
 			handgunWeaponMagazine = "";
 			vest = "rhsusf_iotv_ocp_SAW";
@@ -58,7 +58,7 @@ class us_army {
 				"rhsusf_100Rnd_556x45_soft_pouch"
 			};
 			addItemsToBackpack[] = {
-				LIST_2("rhs_200rnd_556x45_M_SAW")
+				LIST_2("rhsusf_200rnd_556x45_mixed_box")
 			};
 		};
 
@@ -71,7 +71,7 @@ class us_army {
 		class Soldier_A_F: Soldier_F {
 			backpack = "rhsusf_assault_eagleaiii_ocp";
 			addItemsToBackpack[] = {
-				LIST_2("rhs_200rnd_556x45_M_SAW")
+				LIST_2("rhsusf_200rnd_556x45_mixed_box")
 			};
 		};
 
@@ -79,7 +79,7 @@ class us_army {
 		class Soldier_AAR_F: Soldier_F {
 			backpack = "rhsusf_assault_eagleaiii_ocp";
 			addItemsToBackpack[] = {
-				LIST_2("rhs_200rnd_556x45_M_SAW")
+				LIST_2("rhsusf_200rnd_556x45_mixed_box")
 			};
 		};
 
