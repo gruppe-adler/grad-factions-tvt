@@ -47,7 +47,8 @@ class ger_heer_w {
         //autorifleman
 		class Soldier_AR_F: Soldier_F {
             primaryWeapon = "hlc_lmg_MG3";
-            primaryWeaponMagazine = "rhs_200rnd_556x45_M_SAW";
+            primaryWeaponOptics = "";
+            primaryWeaponMagazine = "hlc_100Rnd_762x51_M_MG3";
             handgunWeapon = "";
             handgunWeaponMagazine = "";
             backpack = "SMM_Kitbag_BW_FT";
@@ -78,8 +79,8 @@ class ger_heer_w {
 		class Soldier_AAR_F: Soldier_F {
             backpack = "SMM_Kitbag_BW_FT";
             addItemsToBackpack[] = {
-                LIST_2("rhs_200rnd_556x45_M_SAW"),
-                "rhs_200rnd_556x45_T_SAW"
+                LIST_2("hlc_100Rnd_762x51_M_MG3"),
+                "hlc_100Rnd_762x51_M_MG3"
             };
 		};
 
