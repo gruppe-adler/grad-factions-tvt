@@ -98,7 +98,11 @@ class us_army {
 
         //squad leader
         class Soldier_SL_F: Soldier_F {
-			primaryWeaponOptics = "rhsusf_acc_compm4";
+			primaryWeaponOptics[] = {
+                "rhsusf_acc_compm4",
+                "rhsusf_acc_mrds",
+                "rhsusf_acc_T1_high"
+            };
 			vest = "rhsusf_iotv_ocp_Squadleader";
 			backpack = "TFAR_rt1523g_rhs";
 			headgear = "rhsusf_ach_helmet_headset_ess_ocp";
@@ -111,7 +115,11 @@ class us_army {
         //team leader
 		class Soldier_TL_F: Soldier_F {
 			primaryWeapon = "rhs_weap_m4a1_carryhandle_m203";
-			primaryWeaponOptics = "rhsusf_acc_compm4";
+            primaryWeaponOptics[] = {
+                "rhsusf_acc_compm4",
+                "rhsusf_acc_mrds",
+                "rhsusf_acc_T1_high"
+            };
 			vest = "rhsusf_iotv_ocp_Teamleader";
 			backpack = "rhsusf_assault_eagleaiii_ocp";
 			headgear = "rhsusf_ach_helmet_headset_ocp";
