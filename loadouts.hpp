@@ -13,3 +13,6 @@
 #include "factions\rus_msv_d.hpp"
 
 #include "factions\us_army.hpp"
+
+#include "factions\us_marines_w.hpp"
+#include "factions\us_marines_d.hpp"
