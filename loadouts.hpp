@@ -12,6 +12,8 @@
 #include "factions\rus_msv_w.hpp"
 #include "factions\rus_msv_d.hpp"
 
+#include "factions\rus_spetsnaz.hpp"
+
 #include "factions\us_army.hpp"
 
 #include "factions\us_marines_w.hpp"

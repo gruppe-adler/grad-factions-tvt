@@ -74,6 +74,7 @@ These factions are available (see also the `factions` directory):
 | ind_me_terrorists        | Middle Eastern terrorists     | [Project Opfor](http://www.armaholic.com/page.php?id=31310)                         |
 | rus_msv_d                | Russian MSV EMR Desert        | [RHS: AFRF](http://www.rhsmods.org/mod/1)                                           |
 | rus_msv_w                | Russian MSV Flora             | [RHS: AFRF](http://www.rhsmods.org/mod/1)                                           |
+| rus_spetsnaz             | Russian Spetsnaz (Gorka R)    | [RHS: AFRF](http://www.rhsmods.org/mod/1)                                           |
 | us_army                  | US Army OCP                   | [RHS: USAF](http://www.rhsmods.org/mod/2)                                           |
 | us_marines_d             | US Marines Desert             | [RHS: USAF](http://www.rhsmods.org/mod/2)                                           |
 | us_marines_w             | US Marines Woodland           | [RHS: USAF](http://www.rhsmods.org/mod/2)                                           |
