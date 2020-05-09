@@ -6,6 +6,7 @@
 #include "factions\ger_heer_s.hpp"
 
 #include "factions\ind_eastern_nationalists.hpp"
+#include "factions\ind_me_para.hpp"
 #include "factions\ind_me_terrorists.hpp"
 #include "factions\ind_pmc_special.hpp"
 #include "factions\ind_pmc_west.hpp"
