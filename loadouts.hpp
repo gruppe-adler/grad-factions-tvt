@@ -9,6 +9,8 @@
 #include "factions\ind_me_terrorists.hpp"
 #include "factions\ind_pmc_special.hpp"
 
+#include "factions\isr_idf.hpp"
+
 #include "factions\rus_msv_w.hpp"
 #include "factions\rus_msv_d.hpp"
 
