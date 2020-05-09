@@ -108,6 +108,7 @@ class isr_idf {
 
         //team leader
 		class Soldier_TL_F: Soldier_F {
+            primaryWeapon = "arifle_TRG21_GL_F";
             backpack = "rhsusf_falconii_mc";
             headgear = "rhsusf_ach_bare_headset";
             addItemsToBackpack[] = {
