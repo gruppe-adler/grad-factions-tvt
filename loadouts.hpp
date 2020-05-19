@@ -1,4 +1,5 @@
 #include "list_macros.hpp"
+#include "medicItemsBase.hpp"
 
 #include "factions\fin_borderGuard.hpp"
 #include "factions\ger_heer_w.hpp"
