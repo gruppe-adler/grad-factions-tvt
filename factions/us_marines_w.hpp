@@ -115,9 +115,9 @@ class us_marines_w {
 			vest = "rhsusf_spc_teamleader";
 			headgear = "rhsusf_lwh_helmet_marpatwd_headset_blk2";
 			addItemsToVest[] = {
+                LIST_7("rhs_mag_30Rnd_556x45_M855A1_Stanag"),
 				LIST_2("rhs_mag_an_m8hc"),
 				LIST_2("rhs_mag_m67"),
-				LIST_2("rhsusf_100Rnd_556x45_soft_pouch"),
 				LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
 				LIST_2("1Rnd_SmokePurple_Grenade_shell"),
 				LIST_2("1Rnd_SmokeRed_Grenade_shell")
