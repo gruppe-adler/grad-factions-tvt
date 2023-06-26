@@ -15,24 +15,26 @@ class ind_me_para {
 		handgunWeapon = "";
 		handgunWeaponMagazine = "";
 		uniform[] = {
-			"LOP_U_ISTS_Fatigue_13",
-			"LOP_U_ISTS_Fatigue_05",
-			"LOP_U_ISTS_Fatigue_07",
-			"LOP_U_ISTS_Fatigue_14",
-			"LOP_U_ISTS_Fatigue_12",
-			"LOP_U_ISTS_Fatigue_06",
-			"LOP_U_ISTS_Fatigue_08",
-			"LOP_U_ISTS_Fatigue_09",
-			"LOP_U_ISTS_Fatigue_10"
+			"UK3CB_ADM_B_U_CombatUniform_01_MAR_DES_CC",
+			"UK3CB_ADM_B_U_CombatUniform_01_MAR_DES_DDPM",
+			"UK3CB_ADM_B_U_CombatUniform_01_MAR_DES_TCC",
+			"UK3CB_ADM_B_U_CombatUniform_01_MAR_DES_WDL",
+			"UK3CB_ADM_B_U_CombatUniform_01_MAR",
+			"UK3CB_ADM_B_U_CombatUniform_01_MAR_WDL_ALT",
+			"UK3CB_ADM_B_U_CombatUniform_01_TCC_CC",
+			"UK3CB_ADM_B_U_CombatUniform_01_TCC_DDPM",
+			"UK3CB_ADM_B_U_CombatUniform_01_TCC_MAR_DES",
+			"UK3CB_ADM_B_U_CombatUniform_01_TCC_WDL",
+			"UK3CB_ADM_B_U_CombatUniform_01_WDL_CC",
+			"UK3CB_ADM_B_U_CombatUniform_01_WDL_TCC"
 		};
 		vest[] = {
-			"LOP_V_CarrierLite_OLV",
-			"LOP_V_CarrierLite_TAN",
-			"LOP_V_CarrierLite_TRI",
-			"LOP_V_CarrierLite_WDL"
+			"UK3CB_TKA_B_V_GA_LITE_DES_MARPAT",
+			"UK3CB_TKA_B_V_GA_LITE_TAN",
+			"UK3CB_ANP_B_V_GA_LITE_TAN"
 		};
 		backpack = "";
-		headgear = "LOP_H_Shemag_BLK";
+		headgear = "UK3CB_H_Shemag_blk";
 		nvgoggles = "";
 		radio = "TFAR_fadak";
 		binoculars = "Binocular";

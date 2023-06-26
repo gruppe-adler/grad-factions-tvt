@@ -48,13 +48,24 @@ class ind_pmc_west {
 			"U_BG_Guerilla2_1",
 			"U_BG_Guerilla2_2",
 			"U_BG_Guerilla2_3",
-			"LOP_U_PMC_Fatigue_01",
-			"LOP_U_PMC_Fatigue_03",
-			"LOP_U_PMC_tac_blue_plaid",
-			"LOP_U_PMC_tac_grn_palm",
-			"LOP_U_PMC_tac_blue_hi",
-			"LOP_U_PMC_tac_tacky",
-			"LOP_U_PMC_tac_floral"
+			"U_BG_Guerilla1_1",
+			"U_I_C_Soldier_Para_1_F",
+			"rhs_uniform_g3_m81",
+			"rhs_uniform_g3_blk",
+			"UK3CB_NAP_B_U_Tshirt_BLK",
+			"UK3CB_ADM_B_U_Tshirt_01_WDL",
+			"UK3CB_ADM_B_U_Tshirt_01_WDL_03",
+			"UK3CB_ADE_O_U_02_D",
+			"UK3CB_ADE_O_U_02_G",
+			"UK3CB_ADE_O_U_02_C",
+			"UK3CB_NAP_B_U_Officer_Uniform_WDL_GRN",
+			"UK3CB_NAP_B_U_Officer_Uniform_WDL_BLK",
+			"UK3CB_NAP_B_U_Officer_Uniform_GRN_BLK",
+			"UK3CB_ADM_B_U_Shirt_Pants_01_BLU_DDPM",
+			"UK3CB_ADM_B_U_Shirt_Pants_01_BLU_WDL",
+			"UK3CB_ADM_B_U_Shirt_Pants_01_BLU_WDL_ALT",
+			"UK3CB_ADM_B_U_Shirt_Pants_01_GRN_WDL",
+			"UK3CB_ADM_B_U_Shirt_Pants_01_GRN_WDL_ALT"
 		};
 		vest = "rhsusf_mbav_light";
 		backpack = "";

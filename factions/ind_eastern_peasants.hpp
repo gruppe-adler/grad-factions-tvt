@@ -1,23 +1,27 @@
 class ind_eastern_peasants: ind_me_terrorists {
 	class AllUnits: AllUnits {
 		uniform[] = {
-			"LOP_U_CHR_Woodlander_01",
-			"LOP_U_CHR_Woodlander_02",
-			"LOP_U_CHR_Woodlander_04",
-			"LOP_U_CHR_Worker_03",
-			"LOP_U_CHR_Worker_04",
-			"LOP_U_CHR_Worker_01",
-			"LOP_U_CHR_Worker_02",
-			"LOP_U_CHR_Villager_01",
-			"LOP_U_CHR_Villager_04",
-			"LOP_U_CHR_Villager_03",
-			"LOP_U_CHR_Villager_02"
+			"UK3CB_CHC_C_U_ACTIVIST_01",
+			"UK3CB_CHC_C_U_ACTIVIST_04",
+			"UK3CB_CHC_C_U_CIT_01",
+			"UK3CB_CHC_C_U_CIT_03",
+			"UK3CB_CHC_C_U_CIT_04",
+			"UK3CB_CHC_C_U_WORK_02",
+			"UK3CB_CHC_C_U_VILL_03",
+			"UK3CB_CHC_C_U_WOOD_01",
+			"UK3CB_CHC_C_U_WOOD_02",
+			"UK3CB_CHC_C_U_WOOD_03",
+			"UK3CB_CHC_C_U_WOOD_04"
 		};
 		headgear[] = {
 			"",
-			"LOP_H_Ushanka",
-			"LOP_H_Villager_cap",
-			"H_Hat_brown"
+			"UK3CB_H_Ushanka_Cap_01",
+			"UK3CB_H_Villager_Cap_01",
+			"UK3CB_H_Beanie_02_Blk",
+			"UK3CB_H_Beanie_02_Brn",
+			"UK3CB_H_Beanie_02_Camo",
+			"H_Hat_brown",
+			"rhs_ushanka"
 		};
 	};
 

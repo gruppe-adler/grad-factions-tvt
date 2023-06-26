@@ -11,13 +11,21 @@ class ind_me_terrorists {
         secondaryWeaponMagazine = "";
         handgunWeapon = "";
         uniform[] = {
-            "LOP_U_AM_Fatigue_01",
-            "LOP_U_AM_Fatigue_01_3",
-            "LOP_U_AM_Fatigue_01_5",
-            "LOP_U_AM_Fatigue_02",
-            "LOP_U_AM_Fatigue_02_2",
-            "LOP_U_AM_Fatigue_02_5",
-            "LOP_U_AM_Fatigue_02_6"
+            "UK3CB_TKM_O_U_01",
+            "UK3CB_TKM_O_U_01_B",
+            "UK3CB_TKM_O_U_01_C",
+            "UK3CB_TKM_O_U_01_D",
+            "UK3CB_TKM_O_U_03",
+            "UK3CB_TKM_O_U_03_B",
+            "UK3CB_TKM_O_U_04",
+			"UK3CB_TKM_O_U_04_B",
+			"UK3CB_TKM_O_U_04_C",
+			"UK3CB_TKM_O_U_05",
+			"UK3CB_TKM_O_U_05_B",
+			"UK3CB_TKM_O_U_05_C",
+			"UK3CB_TKM_O_U_06",
+			"UK3CB_TKM_O_U_06_B",
+			"UK3CB_TKM_O_U_06_C",
         };
         vest = "";
         backpack = "";
@@ -25,9 +33,20 @@ class ind_me_terrorists {
         headgear[] = {
             "H_Shemag_olive",
             "H_ShemagOpen_khk",
-            "LOP_H_Shemag_TAN",
-            "LOP_H_Shemag_BLK",
-            "LOP_H_Turban_mask"
+            "UK3CB_H_Turban_Facewrap_01_Blk",
+            "UK3CB_H_Turban_Facewrap_02_Blk",
+            "UK3CB_H_Turban_Facewrap_03_Blk",
+			"UK3CB_H_Turban_Facewrap_01_Red",
+            "UK3CB_H_Turban_Facewrap_02_Red",
+            "UK3CB_H_Turban_Facewrap_03_Red",
+			"UK3CB_TKA_I_H_Shemag_Des",
+			"UK3CB_H_Shemag_blk",
+			"UK3CB_H_Shemag_grey",
+			"UK3CB_H_Shemag_oli",
+			"UK3CB_H_Shemag_red",
+			"UK3CB_H_Shemag_tan",
+			"UK3CB_H_Shemag_white",
+			"UK3CB_H_Mil_Turban_Wrap"
         };
         nvgoggles = "";
         radio = "TFAR_fadak";
@@ -71,7 +90,7 @@ class ind_me_terrorists {
 
         //ammo bearer
         class Soldier_A_F: Soldier_F {
-            vest = "LOP_6sh46";
+            vest = "UK3CB_V_Pouch";
             addItemsToVest[] = {
                 LIST_4("gm_75Rnd_762x39mm_AP_7N23_ak47_blk")
             };
@@ -79,7 +98,7 @@ class ind_me_terrorists {
 
         //assistant autorifleman
         class Soldier_AAR_F: Soldier_F {
-            vest = "LOP_6sh46";
+            vest = "UK3CB_V_Pouch";
             addItemsToVest[] = {
                 LIST_4("gm_75Rnd_762x39mm_AP_7N23_ak47_blk")
             };
@@ -87,8 +106,8 @@ class ind_me_terrorists {
 
         //medic
         class Medic_F: Soldier_F {
-            vest = "LOP_6sh46";
-            headgear = "LOP_H_Pakol";
+            vest = "UK3CB_V_Pouch";
+            headgear = "UK3CB_TKC_H_Turban_01_1";
             goggles = "G_Bandanna_khk";
             addItemsToVest[] = {
                 LIST_20("ACE_fieldDressing"),
@@ -106,7 +125,7 @@ class ind_me_terrorists {
         //team leader
         class Soldier_TL_F: Soldier_F {
             binoculars = "Binocular";
-            headgear = "LOP_H_Pakol";
+            headgear = "UK3CB_TKC_H_Turban_01_1";
             goggles = "rhs_scarf";
         };
     };

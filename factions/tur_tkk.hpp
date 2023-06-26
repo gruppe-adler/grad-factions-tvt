@@ -11,7 +11,7 @@ class tur_tkk {
 		secondaryWeaponMagazine = "";
 		handgunWeapon = "";
 		handgunWeaponMagazine = "";
-		uniform = "LOP_U_Fatigue_BDU_TURK_TUBITAK_01";
+		uniform = "UK3CB_CW_SOV_O_Late_U_VDV_CombatUniform_03_TTSKO";
 		vest[] = {
 			"PO_V_SPCS_TUB_RIF",
 			"PO_V_SPCS_TUB_RIF2"
@@ -52,7 +52,7 @@ class tur_tkk {
 			handgunWeapon = "";
 			handgunWeaponMagazine = "";
 			vest = "PO_V_SPCS_TUB_MG";
-			backpack = "LOP_B_FP_MG42_tub";
+			backpack = "B_FieldPack_taiga_F";
 			addItemsToVest[] = {
 				LIST_2("hlc_50Rnd_762x51_M_MG3"),
 				LIST_2("rhs_mag_an_m8hc"),
@@ -70,7 +70,7 @@ class tur_tkk {
 
 		//ammo bearer
 		class Soldier_A_F: Soldier_F {
-			backpack = "LOP_B_FP_MG42_tub";
+			backpack = "B_FieldPack_taiga_F";
 			addItemsToBackpack[] = {
 				LIST_5("hlc_50Rnd_762x51_M_MG3")
 			};
@@ -78,7 +78,7 @@ class tur_tkk {
 
 		//assistant autorifleman
 		class Soldier_AAR_F: Soldier_F {
-			backpack = "LOP_B_FP_MG42_tub";
+			backpack = "B_FieldPack_taiga_F";
 			addItemsToBackpack[] = {
 				LIST_5("hlc_50Rnd_762x51_M_MG3")
 			};
@@ -86,7 +86,7 @@ class tur_tkk {
 
 		//medic
 		class Medic_F: Soldier_F {
-			backpack = "LOP_B_KB_Med_tub";
+			backpack = "UK3CB_B_Alice_Medic_Bedroll_K";
 			addItemsToBackpack[] = {
 				LIST_20("ACE_fieldDressing"),
 				LIST_10("ACE_fieldDressing"),
