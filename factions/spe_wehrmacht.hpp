@@ -90,7 +90,7 @@ class spe_wehrmacht {
                 LIST_15("SPE_5Rnd_792x57")
             };
 			addItemsToBackpack[] = {
-				LIST_1("SPE_1Rnd_PzFaust_30m");
+				LIST_1("SPE_1Rnd_PzFaust_30m")
 			};
 		};
 
