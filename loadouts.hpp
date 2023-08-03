@@ -30,3 +30,8 @@
 
 #include "factions\spe_us.hpp"
 #include "factions\spe_wehrmacht.hpp"
+
+#include "factions\spe_us_early.hpp"
+#include "factions\spe_us_late.hpp"
+#include "factions\spe_wehrmacht_early.hpp"
+#include "factions\spe_wehrmacht_late.hpp"
