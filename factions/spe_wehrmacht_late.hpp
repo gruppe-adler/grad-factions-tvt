@@ -4,7 +4,7 @@ LIST_3("ACE_morphine"), \
 LIST_3("ACE_tourniquet"), \
 LIST_2("ACE_epinephrine")
 
-class spe_wehrmacht_early {
+class spe_wehrmacht_late {
 	class AllUnits {
 		uniform = "U_SPE_GER_Soldier_camo4";
         vest = "V_SPE_GER_VestKar98";
@@ -116,7 +116,7 @@ class spe_wehrmacht_early {
                 LIST_2("SPE_NB39")
             };
             addItemsToBackpack[] = {
-                LIST_5("SPE_50Rnd_792x57")
+                LIST_6("SPE_50Rnd_792x57")
             };
 		};
 

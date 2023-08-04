@@ -4,7 +4,7 @@ LIST_3("ACE_morphine"), \
 LIST_3("ACE_tourniquet"), \
 LIST_2("ACE_epinephrine")
 
-class spe_us {
+class spe_us_early {
 	class AllUnits {
 		uniform = "U_SPE_US_Private";
         vest = "V_SPE_US_Vest_Carbine_pick";
@@ -65,6 +65,7 @@ class spe_us {
 		class Soldier_AR_F: Soldier_F {
 			primaryWeapon = "SPE_M1A1_Thompson";
             primaryWeaponMagazine = "SPE_30Rnd_Thompson_45ACP";
+            backpack = "B_SPE_US_Backpack_roll_gp"
             addItemsToVest[] = {
                 LIST_7("SPE_30Rnd_Thompson_45ACP")
             };
@@ -109,7 +110,7 @@ class spe_us {
 		//assistant autorifleman - SPE_M1903A3_Springfield
 		class Soldier_AAR_F: Soldier_F {
 			primaryWeaponMuzzle = "SPE_ACC_M1_Bayo";
-            backpack = "B_SPE_US_packboard_ammo";
+            backpack = "B_SPE_US_Backpack_M43_GP";
             addItemsToVest[] = {
                 LIST_2("SPE_US_M18"),
                 LIST_20("SPE_5Rnd_762x63")
@@ -124,7 +125,7 @@ class spe_us {
 		class Medic_F: Soldier_F {
             goggles = "G_SPE_Ful_Vue_Reinforced";
             uniform = "U_SPE_US_Med";
-            backpack = "V_SPE_US_Vest_Carbine_pick";
+            backpack = "B_SPE_US_M36_Bandoleer";
 			primaryWeaponMuzzle = "SPE_ACC_M1_Bayo";
             addItemsToVest[] = {
                 LIST_2("SPE_US_M18"),

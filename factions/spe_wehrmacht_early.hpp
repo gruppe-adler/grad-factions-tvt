@@ -66,12 +66,11 @@ class spe_wehrmacht_early {
 			primaryWeapon = "SPE_MP40";
             primaryWeaponMagazine = "SPE_32Rnd_9x19";
             addItemsToVest[] = {
-                LIST_7("SPE_32Rnd_9x19")
+                LIST_14("SPE_32Rnd_9x19")
             };
             addItemsToBackpack[] = {
                 LIST_1("ACE_EntrenchingTool"),
-                LIST_2("SPE_NB39"),
-                LIST_7("SPE_32Rnd_9x19")
+                LIST_2("SPE_NB39")
             };
 		};
 
@@ -118,7 +117,7 @@ class spe_wehrmacht_early {
                 LIST_15("SPE_5Rnd_792x57")
             };
             addItemsToBackpack[] = {
-                LIST_5("SPE_50Rnd_792x57")
+                LIST_6("SPE_50Rnd_792x57")
             };
 		};
 
